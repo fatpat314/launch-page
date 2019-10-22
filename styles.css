@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+
+    color:grey;
+}
+.benifits_background{
+    background-color: black;
+}
+
+.navbar {
+
+    padding: .5rem;
+    background-color: grey;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: grey;
+}
+
+.btn-primary: hover {
+    background-color: blue;
+    color: white;
+}
+
+.hero-background-img{
+    position: relative;
+    background: rgba(0,0,0,0.1);
+    padding-top:100px;
+    padding-bottom: 200px;
+}
+
+.hero-background-img:after {
+    content: "";
+    position: absolute;
+    background-image: url("https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -250px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
